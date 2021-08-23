@@ -1,0 +1,56 @@
+{
+    "slider-layout#home": {
+        "children": [
+            "image#brand1",
+            "image#brand2",
+            "image#brand3",
+            "image#brand4",
+            "image#brand5",
+            "image#brand6"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        }
+    },
+
+    "image#brand1": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1627507672-POST%20MEDALHA.png"
+        }
+
+    },
+    "image#brand2": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1614462307-KIR%2005%20COM%20FUNDO.png"
+        }
+
+    },
+    "image#brand3": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1610558665-POST%20%281%29.png"
+        }
+
+    },
+    "image#brand4": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1614455592-POST.png"
+        }
+
+    },
+    "image#brand5": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1610222998-POST.png"
+        }
+
+    },
+    "image#brand6": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1609684196-POST%20BRASA%CC%83O%20CORINTHIANS.png"
+        }
+
+    }
+    
+}

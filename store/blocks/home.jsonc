@@ -1,0 +1,82 @@
+{
+  "store.home": { 
+    "blocks": [
+      "tab-layout",
+      "slider-layout#home"
+    ]
+  },
+  "tab-layout" : {
+    "children": ["tab-list","tab-content"]
+  },
+
+  "tab-list" : {
+    "children": ["tab-list.item#1","tab-list.item#2","tab-list.item#3","tab-list.item#4"]
+  },
+
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "Promocao",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians" 
+    }
+  },
+
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "signos",
+      "label": "Signos" 
+    }
+  },
+
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "Divertidos" 
+    }
+  },
+  "tab-content" : {
+    "children": ["tab-content.item#1","tab-content.item#2"]
+  },
+
+  "tab-content.item#1": {
+    "children": ["info-card#1"],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#2": {
+    "children": ["info-card#2"],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1629141914-POST.png",
+      "isFullModeStyle": true,
+      "headline": "Promoção",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center"
+    }
+  },
+
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/1610559849-POST.png",
+      "isFullModeStyle": true,
+      "headline": "Corinthians",
+      "callToActionText": "VER DETALHES",
+      "textPosition": "center"
+    }
+  }
+
+
+}
